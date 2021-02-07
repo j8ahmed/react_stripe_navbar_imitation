@@ -1,11 +1,14 @@
+import './css/index.css'
 import React from 'react'
 import { AppProvider } from './components/AppProvider'
-import ReactRouterSetup from './components/ReactRouterSetup'
+import Home from './components/Home'
+
 
 const Index = () => {
+    
     return (
         <AppProvider>
-            <ReactRouterSetup />
+            <Home />
         </AppProvider>
     )
 }
